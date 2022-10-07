@@ -1,0 +1,22 @@
+.quiz{
+    position: relative;
+    width:100%;
+}
+
+.quiz-title-container{
+    margin: 10px;
+}
+
+.quiz-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.quiz-container{
+    position: relative;
+    width: var(--size);
+    height: 50%;
+    display: block;
+    margin: auto;
+    background-color: aliceblue;
+}

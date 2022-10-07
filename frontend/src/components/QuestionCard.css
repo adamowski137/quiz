@@ -1,0 +1,14 @@
+.question-card{
+    position: relative;
+    display: block;
+    background-color: rgb(84, 82, 82);
+    width: 100%;
+    min-height: fit-content;
+    height: 90%;
+
+}
+
+.question-card-question{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
