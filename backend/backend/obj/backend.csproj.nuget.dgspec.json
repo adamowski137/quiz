@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adamz\\OneDrive\\Pulpit\\projekty\\quiz\\backend\\backend\\backend.csproj": {}
+    "C:\\Users\\adam\\Desktop\\projekty\\quiz\\backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adamz\\OneDrive\\Pulpit\\projekty\\quiz\\backend\\backend\\backend.csproj": {
+    "C:\\Users\\adam\\Desktop\\projekty\\quiz\\backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adamz\\OneDrive\\Pulpit\\projekty\\quiz\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\adam\\Desktop\\projekty\\quiz\\backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\adamz\\OneDrive\\Pulpit\\projekty\\quiz\\backend\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\adamz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adamz\\OneDrive\\Pulpit\\projekty\\quiz\\backend\\backend\\obj\\",
+        "projectPath": "C:\\Users\\adam\\Desktop\\projekty\\quiz\\backend\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adam\\Desktop\\projekty\\quiz\\backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adamz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

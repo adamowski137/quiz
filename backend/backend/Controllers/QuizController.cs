@@ -21,7 +21,7 @@ namespace backend.Controllers
         //public IEnumerable<QuestionList> Get()
         public Quiz Get([FromHeader(Name="user_id")] int user_id, [FromHeader(Name = "id")] int id)
         {
-            using (MySqlConnection _connection = new MySqlConnection("server=localhost;port=3306; user=root;password=PASSWORD;database=quiz"))
+            using (MySqlConnection _connection = new MySqlConnection("server=localhost;port=3306; user=root;password=adamowski137;database=quiz"))
             {
                 _connection.Open();
                 Quiz quiz = new Quiz();
