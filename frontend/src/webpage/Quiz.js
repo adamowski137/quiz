@@ -38,7 +38,7 @@ function Quiz(){
     }, [])
     
 
-    console.log(questions);
+    const handleNext
 
     if (IsLoading) {
         return <div>Loading...</div>;
@@ -51,6 +51,10 @@ function Quiz(){
             </div>
             <div className="quiz-container">
                 <QuestionCard question={questions.questions[current]}/>
+                <div className="quiz-button-container">
+                    <button className="quiz-button-prev"> z </button>
+                    <button className="quiz-button-next"> z </button>
+                </div>
             </div>
         </div>
     )

@@ -1,14 +1,22 @@
 .question-card{
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     background-color: rgb(84, 82, 82);
-    width: 100%;
     min-height: fit-content;
-    height: 90%;
+    height: 100%;
+    width: 100%;
 
 }
 
 .question-card-question{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.question-card-anwser{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }

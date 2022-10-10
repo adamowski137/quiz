@@ -23,6 +23,7 @@ namespace backend.Controllers
         [HttpGet("")]
         public IEnumerable<Quiz> GetUserQuiz([FromHeader(Name = "user_id")] int user)
         {
+<<<<<<< HEAD
             _connection.Open();
             MySqlCommand mySqlCommand = new MySqlCommand("SELECT * FROM quizzes WHERE id = user_id");
             MySqlDataReader reader = mySqlCommand.ExecuteReader();
@@ -30,6 +31,9 @@ namespace backend.Controllers
             List<Quiz> quizzes = new List<Quiz>();
 
             while (reader.Read())
+=======
+            using (MySqlConnection _connection = new MySqlConnection("server=localhost;port=3306; user=root;password=adamowski137;database=quiz"))
+>>>>>>> 5cbcc6b3b53423cdd077f15571db908c84ffce1c
             {
                 Quiz quiz = new Quiz();
                 quiz.id = Convert.ToInt32(reader["id"]);
